@@ -1,0 +1,205 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #121212;
+  margin-bottom: 20px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #1eab49;
+  margin-left: 20px;
+}
+
+.heading-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 567px) {
+  .heading {
+    font-size: 16px;
+  }
+}
+
+.input-search {
+  height: 35px;
+  width: 300px;
+  background-color: #121212;
+  border: 1px solid #1d1d1d;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #5c5c5c;
+  outline: none;
+}
+
+.react-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.error-image {
+  width: 200px;
+  height: 200px;
+}
+
+.try-again-button {
+  padding: 6px 15px;
+  border: 1px solid #1eab49;
+  background-color: #1eab49;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #fcfcfc;
+}
+
+.user-table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.user-table {
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.found-nothing-text {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+th {
+  background-color: #121212;
+  border: 1px solid #1d1d1d;
+  text-align: left;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+td {
+  border: 1px solid #1d1d1d;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #d6d6d6;
+}
+
+@media screen and (max-width: 567px) {
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 10px;
+  }
+}
+
+.edit-delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit-icon {
+  border: none;
+  background-color: transparent;
+  color: #1eab49;
+  cursor: pointer;
+}
+
+.delete-icon {
+  border: none;
+  background-color: transparent;
+  color: #ab231e;
+  cursor: pointer;
+}
+
+.delete-button-container {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination-container {
+  align-self: center;
+  margin-left: 20px;
+}
+
+.pagination-button {
+  padding: 6px 10px;
+  border: 1px solid #1d1d1d;
+  background-color: #121212;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #fcfcfc;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button {
+  padding: 6px 10px;
+  border: 1px solid #ab231e;
+  background-color: #ab231e;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #fcfcfc;
+  cursor: pointer;
+  outline: none;
+}
+
+.empty-container {
+  flex-grow: 1;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.footer-info {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
